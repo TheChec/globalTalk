@@ -24,7 +24,7 @@ sr.reveal('.sectionBg',{
     distance: '-150px',
     reset: true
 })
-sr.reveal('.textDivide',{
+sr.reveal('.textleft',{
     duration: 2000,
     origin: 'top',
     distance: '-150px',

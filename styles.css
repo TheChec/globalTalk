@@ -112,6 +112,11 @@ h1{
     padding: 0 20px;
     list-style: none;
 }
+.imgOnly{
+    width: 250px;
+    object-fit: contain;
+    margin: 10px 25px 0 25px;
+}
 .cardsOffer h4{
     color: var(--c1);
 }
@@ -168,7 +173,6 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 li{
     margin: 10px;
 }
