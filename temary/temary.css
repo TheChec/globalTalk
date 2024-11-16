@@ -132,6 +132,7 @@ h1 {
     justify-content: center;
     box-sizing: border-box;
     overflow: hidden;
+    gap: 0 50px;
 }
 .textleft{
     width: 30%;
@@ -151,11 +152,6 @@ h2{
 p{
     line-height: 2;
 }
-
-
-
-
-
 .divSeparator {
     margin: 20px auto;
 }
@@ -215,6 +211,23 @@ footer h4 {
     font-weight: normal;
 }
 
+@media (max-width: 1200px){
+    .textDivide{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px;
+    }
+    .textleft{
+        width: 100%;
+    }
+    .imgRight{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+}
+
 @media (max-width: 800px) {
     .divCards {
         gap: 0 20px;
@@ -237,4 +250,5 @@ footer h4 {
     .buttonsNav{
         display: none;
     }
+    
 }
